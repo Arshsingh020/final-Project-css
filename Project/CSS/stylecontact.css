@@ -1,0 +1,273 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #0077c0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #051887;
+  text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+  
+    @media screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+    
+      nav li {
+        margin: 10px 0;
+      }
+    }
+    
+    h1 {
+    font-family: 'La Macchina', sans-serif;
+    font-weight: bold;
+    height: 10px;
+    }
+    
+    h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    }
+    
+    a {
+    color: #0077c0;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #051887;
+    text-decoration: underline;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+  /* Main section styles */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #f60;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #f90;
+}
+
+  /* Footer styles */
+  footer {
+    background-color: #0b0b0b;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  footer h3 {
+    color: rgba(253, 252, 251, 0.794);
+  }
+  
+  .company-info {
+    width: 40%;
+  }
+  
+  .contact-info li  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #484747;
+  }
+
+  footer p {
+    color: #484747;
+  }
+
+  
+  .contact-info li i {
+    margin-right: 10px;
+  }
+ 
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media h3 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media li {
+    margin-right: 10px;
+  }
+  
+  .social-media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #070707;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(253, 252, 252, 0.812);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.1);
+  }
+  
+  .legal {
+    width: 30%;
+  }
+  
+  .legal ul {
+    list-style: none;
+    text-align: right;
+  }
+  
+  .legal ul li {
+    margin-bottom: 10px;
+  }
+  
+  .legal ul li a {
+    color: #484747;
+    text-decoration: none;
+  }
+  
+  .legal ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .company-info,
+    .social-media,
+    .legal {
+      width: 100%;
+    }
+    
+    .social-media ul {
+      margin-top: 20px;
+    }
+  }
+  
+  
